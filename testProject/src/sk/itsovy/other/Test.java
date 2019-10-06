@@ -4,29 +4,38 @@ import java.util.Scanner;
 
 public class Test {
 
-    /*private void getName() {
+    public void getInfo() {
         Scanner object1=new Scanner(System.in);
-        System.out.println("Enter username: ");
-        String userName=object1.nextLine();
-        System.out.println("Username is: "+userName);
+
+        /*System.out.println("Enter name: ");
+        String name = object1.nextLine();
+
         System.out.println("Enter number: ");
-        int value=object1.nextLine();
-        System.out.println("Your number is: "+value);
+        int value = object1.nextInt();
+
+        System.out.println("Name is: " + name);
+        System.out.println("Number is: " + value);*/
 
         String userName0="Denis";
         int password0=12345;
 
-        System.out.println("Enter your name: ");
+        System.out.println("Enter your username: ");
         String userName1=object1.nextLine();
-        System.out.println("Enter password: ");
+
+        System.out.println("Enter your password: ");
         int password1=object1.nextInt();
+
+        System.out.println("Username is: "+userName0);
+        System.out.println("Password is: "+password0);
+        System.out.println("Username is: "+userName1);
+        System.out.println("Password is: "+password1);
 
         if (userName0==userName1 && password0==password1) {
             System.out.println("Correct");
         } else {
             System.out.println("Incorrect");
         }
-    }*/
+    }
 
     public void triangle1() {
         for (int i=1; i<11; i++) {

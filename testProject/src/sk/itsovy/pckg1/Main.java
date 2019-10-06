@@ -68,9 +68,9 @@ public class Main {
         System.out.println(person1.getCalculator().calcBlockArea(2, 3, 4));
         System.out.println(fc.loanYears(239,5.5, 12500));*/
 
-        fc.sayNHi(5);
+        //fc.sayNHi(5);
 
-        System.out.println();
+        /*System.out.println();
         t.task_1();
         System.out.println();
         System.out.println();
@@ -96,10 +96,10 @@ public class Main {
         System.out.println();
         System.out.println();
         t.task_10();
-        System.out.println();
+        System.out.println();*/
 
-        t.digitSum(123456789);
+        //t.digitSum(123456789);
 
-        //t.getName();
+        t.getInfo();
     }
 }
