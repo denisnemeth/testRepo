@@ -2,6 +2,7 @@ package sk.itsovy.pckg1;
 
 import sk.itsovy.other.FreeClass;
 import sk.itsovy.other.Test;
+import sk.itsovy.other.Rectangles;
 
 public class Main {
     public static void main(String[] args) {
@@ -42,6 +43,7 @@ public class Main {
 
         FreeClass fc = new FreeClass();
         Test t = new Test();
+        Rectangles r = new Rectangles();
 
         /*person1.about();
         System.out.println(person1.getName()+"'s BMI is "+person1.calculateBmi()+", which "+person1.getBmiTextStatus()+".");
@@ -100,6 +102,6 @@ public class Main {
 
         //t.digitSum(123456789);
 
-        t.getInfo();
+        r.rectangle3();
     }
 }
